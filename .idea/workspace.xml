@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b844e0b-3fdd-4402-9769-25c72cec8b8e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Double_Words.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4b844e0b-3fdd-4402-9769-25c72cec8b8e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,8 +39,8 @@
       <file leaf-file-name="Double_Words.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Double_Words.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+            <state relative-caret-position="827">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
               <folding>
                 <element signature="e#0#499#0" expanded="true" />
                 <element signature="e#595#603#0" expanded="true" />
@@ -97,7 +94,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-215" />
     <option name="y" value="-50" />
     <option name="width" value="2644" />
@@ -253,7 +250,7 @@
       <workItem from="1531778664693" duration="1712000" />
       <workItem from="1531781034713" duration="1322000" />
       <workItem from="1531783044294" duration="3182000" />
-      <workItem from="1531850619955" duration="2577000" />
+      <workItem from="1531850619955" duration="2906000" />
     </task>
     <task id="LOCAL-00001" summary="Did an input problem and played with string conversion">
       <created>1531780039967</created>
@@ -269,11 +266,18 @@
       <option name="project" value="LOCAL" />
       <updated>1531785168719</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="New problem that sanatizes strings and returns a completed string.&#10;round 2 will include a reg expression.">
+      <created>1531853262144</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1531853262144</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41283000" />
+    <option name="totallyTimeSpent" value="41612000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1544" height="917" extended-state="6" />
@@ -289,7 +293,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32876712" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -319,7 +323,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Did an input problem and played with string conversion" />
     <MESSAGE value="Did a second project that prints a series of strings based on user input" />
-    <option name="LAST_COMMIT_MESSAGE" value="Did a second project that prints a series of strings based on user input" />
+    <MESSAGE value="New problem that sanatizes strings and returns a completed string.&#10;round 2 will include a reg expression." />
+    <option name="LAST_COMMIT_MESSAGE" value="New problem that sanatizes strings and returns a completed string.&#10;round 2 will include a reg expression." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -590,8 +595,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Double_Words.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+        <state relative-caret-position="827">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
           <folding>
             <element signature="e#0#499#0" expanded="true" />
             <element signature="e#595#603#0" expanded="true" />
