@@ -14,18 +14,15 @@ public class BinaryTOdecimal {
 
     public int BinTODec(String input){
         int output = 0;
-        if(input.length()>7){
-            System.out.println("Sorry, you need to have no more than six positions!");
-            return 0;
-        }else{
 
-            for(int i = input.length()-1;i>0;i--){
-                if(input.charAt(i) == '1'){
-                    output+= Math.pow(2,i);
-                }
+        int powerNum=0;
+        for(int i = input.length()-1;i>=0;i--){
+            if(input.charAt(i) == '1'){
+                output+= Math.pow(2,powerNum);
             }
-
+            powerNum++;
         }
+
         return output;
     }
 
@@ -34,6 +31,16 @@ public class BinaryTOdecimal {
         String test = "100101";
         BinaryTOdecimal testCase = new BinaryTOdecimal();
         System.out.println(testCase.BinTODec(test));
+
+
+        String test2 = "100101001110";
+        System.out.println(testCase.BinTODec(test2));
+
+        String test3 = "11001100";
+        System.out.println(testCase.BinTODec(test3));
+
+        String test4 = "111";
+        System.out.println(testCase.BinTODec(test4));
     }
 
 }
