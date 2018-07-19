@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b844e0b-3fdd-4402-9769-25c72cec8b8e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BinaryTOdecimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DecimalToBinary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4b844e0b-3fdd-4402-9769-25c72cec8b8e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,7 +18,7 @@
       <file leaf-file-name="BinaryTOdecimal.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BinaryTOdecimal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
+            <state relative-caret-position="368">
               <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
               <folding>
                 <element signature="e#0#325#0" expanded="true" />
@@ -238,7 +234,7 @@
       <workItem from="1531781034713" duration="1322000" />
       <workItem from="1531783044294" duration="3182000" />
       <workItem from="1531850619955" duration="2906000" />
-      <workItem from="1531949530543" duration="2710000" />
+      <workItem from="1531949530543" duration="2773000" />
     </task>
     <task id="LOCAL-00001" summary="Did an input problem and played with string conversion">
       <created>1531780039967</created>
@@ -265,7 +261,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44322000" />
+    <option name="totallyTimeSpent" value="44385000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1544" height="917" extended-state="6" />
@@ -290,7 +286,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.21544209" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.21544209" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.3294412" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -658,7 +654,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTOdecimal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
+        <state relative-caret-position="368">
           <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
           <folding>
             <element signature="e#0#325#0" expanded="true" />
