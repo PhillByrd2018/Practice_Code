@@ -66,7 +66,7 @@ public class LongestSubString {
 
         String test3 = "pwwkew";
         System.out.println(testCase.findTheString(test3));
-        
+
 
 
 
