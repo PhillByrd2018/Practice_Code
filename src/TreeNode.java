@@ -16,6 +16,12 @@ public class TreeNode {
     public void setLeft(int inputValue){
         this.left = new TreeNode(inputValue);
     }
+    public TreeNode getLeft(){
+        return this.left;
+    }
+    public TreeNode getRight(){
+        return this.right;
+    }
 
     public void setRight(int inputValue){
         this.right = new TreeNode(inputValue);

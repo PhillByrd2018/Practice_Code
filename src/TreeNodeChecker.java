@@ -24,12 +24,20 @@ public class TreeNodeChecker {
 
     public boolean checkTwoTrees(TreeNode inputTree1, TreeNode inputTree2){
 
+        if(inputTree1 == null || inputTree2 == null){
+            return inputTree1 == inputTree2;
+        }
+
+        if(inputTree1.getValue() != inputTree2.getValue()){
+            return false;
+        }
 
 
 
 
 
-        return true;
+
+        return checkTwoTrees(inputTree1.getLeft(),inputTree2.getLeft()) && checkTwoTrees(inputTree1.getRight(),inputTree2.getRight());
 
     }
 
@@ -40,6 +48,7 @@ public class TreeNodeChecker {
 
         testTree1.setLeft(1);
         testTree1.setRight(5);
+
         testTree2.setLeft(1);
         testTree2.setRight(5);
 
@@ -47,7 +56,21 @@ public class TreeNodeChecker {
 
         TreeNodeChecker testCase = new TreeNodeChecker();
 
-        testCase.checkTwoTrees(testTree1,testTree2);
+        System.out.println(testCase.checkTwoTrees(testTree1,testTree2));//returns true
+
+
+
+        ///////////////////////////////////////////////////////////////////////////////
+
+        TreeNode testTree3 = new TreeNode(3);
+        TreeNode testTree4 = new TreeNode(3);
+
+        testTree3.setLeft(1);
+        testTree3.setRight(8);
+
+        testTree4.setLeft(1);
+        testTree4.setRight(5);
+        System.out.println(testCase.checkTwoTrees(testTree3,testTree4));//returns false
 
     }
 
