@@ -39,23 +39,24 @@ public class GoogleActivationCode {
         }
 
         S=S.replace("-","");
-       
+
         if(S.length()<K){
             return S.toUpperCase();
         }
 
 
         String returnString = "";
-        for (int i = S.length() - K; i >= 0; i -= K) {
-            if (i == 0) { // k=2 "rr-uu-tt-hh"
-                returnString = S.substring(0, K) + returnString;
-            } else if (i < K) {
-                returnString = S.substring(0, i) + returnString;
-            } else {
-                returnString = "-" + S.substring(i, i + K) + returnString;
-            }
-        }
 
+        for(int i =S.length()-K;i>=0;i-=K){
+            if(i==0){
+                returnString= S.substring(0,K) + returnString;
+            }else if(i <= K){
+                returnString = S.substring(0,i) + returnString;
+            }else{
+                returnString = "-" + S.substring(i,i+K) + returnString;
+            }
+
+        }
         return returnString.toUpperCase();
     }
 
@@ -65,7 +66,7 @@ public class GoogleActivationCode {
      String test2 = "jf-i97-8dn"; //4
 
      GoogleActivationCode testCase = new GoogleActivationCode();
-     System.out.println(testCase.MakeCode(test1, 2)); //return "J-UF-I9-75-8D-NC"
+     System.out.println(testCase.MakeCode(test1, 2)); //return "J-FU-I9-75-8D-NC"
      System.out.println(testCase.MakeCode(test2, 4)); //return "JFI9-78DN"
 
 
