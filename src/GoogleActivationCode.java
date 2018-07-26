@@ -44,7 +44,7 @@ public class GoogleActivationCode {
             return S.toUpperCase();
         }
 
-        Integer.
+
 
         String returnString = "";
 
