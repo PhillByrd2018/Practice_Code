@@ -49,11 +49,13 @@ public class GoogleClock {
 
 //////////////////////////////////////////////////////////////////
         //here is the arranging bit that is currently not working
-        
+        int increment = 0;
         for(int i=0;i<input.length();i++){
+
             for(int j=0;j<input.length();j++){
-                temp += input.charAt(j);
+                temp += input.charAt(increment);
             }
+            increment++;
             if(Integer.parseInt(temp)-Integer.parseInt(input)<min){
                 output=temp;
             }
