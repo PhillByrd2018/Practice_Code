@@ -39,11 +39,12 @@ public class GoogleActivationCode {
         }
 
         S=S.replace("-","");
-
+        int SNum = Integer.parseInt(S,10);
         if(S.length()<K){
             return S.toUpperCase();
         }
 
+        Integer.
 
         String returnString = "";
 
