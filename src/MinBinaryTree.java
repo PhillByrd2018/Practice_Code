@@ -20,7 +20,7 @@ public class MinBinaryTree {
 
         if(root == null){return 0;}
 
-        if(root.left!= null&&root.right!=null){
+        if(root.left!= null && root.right!=null){
             return Math.min(checkThatTree(root.left),checkThatTree(root.right))+1;
         }else{
             return checkThatTree(root.left != null ? root.left : root.right) + 1;
@@ -45,7 +45,39 @@ public class MinBinaryTree {
             test3R.setRight(3);
 
 
-        System.out.println(testCase.checkThatTree(test));//return 3
+        System.out.println(testCase.checkThatTree(test));//return 2
+
+
+        TreeNode test5 = new TreeNode(5);
+        test5.setRight(2);
+        TreeNode test2R5 = test5.getRight();
+        test2R5.setLeft(1);
+        test2R5.setRight(7);
+        TreeNode test3R5 = test2R5.getRight();
+        test3R5.setLeft(3);
+        test3R5.setRight(3);
+        TreeNode test4L5 = test3R5.getLeft();
+        test4L5.setLeft(9);
+
+
+        System.out.println(testCase.checkThatTree(test5));//return 3
+
+
+        TreeNode badTest = null;
+        System.out.println(testCase.checkThatTree(badTest));//return 0
+
+
+        TreeNode test6 = new TreeNode(5);
+        test6.setRight(2);
+        TreeNode test6R2 = test6.getRight();
+        test6R2.setRight(7);
+        TreeNode test3R6 = test6R2.getRight();
+        test3R6.setLeft(3);
+        test3R6.setRight(3);
+        TreeNode test4L6 = test3R6.getLeft();
+        test4L6.setLeft(9);
+
+        System.out.println(testCase.checkThatTree(test6));//return 4
 
 
     }
