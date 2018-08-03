@@ -41,12 +41,11 @@ import java.time.temporal.ChronoUnit;
 
 public class BirthdayCal {
 
-    public int DaysUntil(String bDay){
-        Calendar c = Calendar.getInstance();
-        int output =0;
+    public void DaysUntil(String bDay){
+
         if(bDay.length()<10){
             System.out.println("Sorry you have not entered a valid birthday.   ----->  (##-##-####)");
-            return -1;
+            return;
         }else{
             bDay=bDay.replace("-","");
             int month =Integer.parseInt(bDay.substring(0,2),10);
@@ -55,7 +54,8 @@ public class BirthdayCal {
 
 
             LocalDate today = LocalDate.now();
-            LocalDate birthday = LocalDate.of(1990, Month.OCTOBER, 20);
+            LocalDate birthday = LocalDate.of(year, month, day);
+
             LocalDate nextBDay = birthday.withYear(today.getYear());
 
             if (nextBDay.isBefore(today) || nextBDay.isEqual(today)) {
@@ -64,6 +64,8 @@ public class BirthdayCal {
 
             Period p = Period.between(today, nextBDay);
             long p2 = ChronoUnit.DAYS.between(today, nextBDay);
+
+
             System.out.println("There are " + p.getMonths() + " months, and " +
                     p.getDays() + " days until your next birthday. (" +
                     p2 + " total)");
@@ -71,19 +73,19 @@ public class BirthdayCal {
         }
 
 
-        return output;
+
     }
 
 
     public static void main(String[] args){
-        Calendar c = Calendar.getInstance();
-        System.out.println("Day : " +
-                c.get(Calendar.DATE));
-        System.out.println(c.get(Calendar.MONTH));
-        System.out.println(c.getTime());
+
+
 
         BirthdayCal testCase = new BirthdayCal();
-        System.out.println(testCase.DaysUntil("10-20-1990"));
+        testCase.DaysUntil("10-20-1990");
+        testCase.DaysUntil("1-20-1990");//returns error
+        testCase.DaysUntil("04-15-1991");
+
 
     }
 }
