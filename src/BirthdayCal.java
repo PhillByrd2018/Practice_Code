@@ -16,23 +16,6 @@
             //replace -, ""
 
 
-
-
-
-
-//way two
-    //brute force approach
-
-//make a function that takes in a string (##-##-####) and returns an int that is number of days until the next Bday
-    //make an output ""
-    //if the string is empty or null return output with error message
-    //else
-        //replace -, ""
-        //mon=sub(0,2).toInt
-        //day=sub(2,4).toInt
-        //year=sub(4).toInt
-
-
 import java.util.Calendar;
 import java.time.LocalDate;
 import java.time.Month;
