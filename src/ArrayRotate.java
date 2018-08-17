@@ -40,24 +40,22 @@ public class ArrayRotate {
     public static void main(String[] args){
 
         ArrayRotate testCase =  new ArrayRotate();
-        List<Integer> testList = new ArrayList<>();
-        testList.add(1);
-        testList.add(2);
-        testList.add(3);
-        testList.add(4);
-        testList.add(5);
-        testList.add(6);
-        testList.add(7);
-        testList.add(8);
-        testList.add(9);
-        testList.add(10);
-        System.out.println(testCase.RotateArray(testList,3)); //{[5, 6, 7, 8, 9, 10, 1, 2, 3]
-        List<Integer> testList2 = new ArrayList<>();
-        System.out.println(testCase.RotateArray(testList2,3)); //{[5, 6, 7, 8, 9, 10, 1, 2, 3]
+//        List<Integer> testList = new ArrayList<>();
+//        testList.add(1);
+//        testList.add(2);
+//        testList.add(3);
+//        testList.add(4);
+//        testList.add(5);
+//        testList.add(6);
+//        testList.add(7);
+//        testList.add(8);
+//        testList.add(9);
+//        testList.add(10);
+//        System.out.println(testCase.RotateArray(testList,3)); //{[5, 6, 7, 8, 9, 10, 1, 2, 3]
+//        List<Integer> testList2 = new ArrayList<>();
+//        System.out.println(testCase.RotateArray(testList2,3)); //{[5, 6, 7, 8, 9, 10, 1, 2, 3]
 
         List<Integer> testList3 = new ArrayList<>();
-
-
         testList3.add(101);
         testList3.add(258);
         testList3.add(31);
